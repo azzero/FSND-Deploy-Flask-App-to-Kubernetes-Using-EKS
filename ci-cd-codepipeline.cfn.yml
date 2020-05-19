@@ -54,7 +54,7 @@ Parameters:
 
   KubectlRoleName:
     Type: String
-    Default: arn:aws:iam::416886095162:role/UdacityFlaskDeployCBKubectlRole
+    Default: UdacityFlaskDeployCBKubectlRole
     Description: IAM role used by kubectl to interact with EKS cluster
     MinLength: 3
     MaxLength: 100
